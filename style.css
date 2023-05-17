@@ -1,26 +1,30 @@
 .container {
-  max-width: 400px;
-  margin: 0 auto;
   text-align: center;
+  margin: 3rem auto;
 }
 
 .task-form {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 ul {
+  display: inline-block;
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
+  padding: 1rem;
+  border: 1px solid black;
 }
 
 button {
-  margin-left: 10px;
+  margin-left: 0.5rem;
 }
 
+.timer {
+  margin-left: 0.5rem;
+}
